@@ -18,9 +18,9 @@ namespace MonOutil
             string? line;
 
 
-            Console.WriteLine("Bienvenu à l'outil Meteo.");
+            Console.WriteLine("Welcome to the meteo tool.");
 
-            Console.WriteLine("Quel est la temperatur en celsius ? ");
+            Console.WriteLine("Enter temperature in celsius ? ");
 
             line = Console.ReadLine();
 
@@ -29,7 +29,7 @@ namespace MonOutil
 
             tempEnFahrenheit = (tempEnCelsius * 9) / 5 + 32;
 
-            Console.WriteLine(tempEnCelsius + " Celsius = " + tempEnFahrenheit + " en fahrenheit");
+            Console.WriteLine(tempEnCelsius + " Celsius = " + tempEnFahrenheit + " in fahrenheit");
 
         }
     }

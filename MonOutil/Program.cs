@@ -7,14 +7,14 @@ internal class Program
 
         string sName;
 
-        Console.WriteLine("Bonjour, quel est votre nom");
+        Console.WriteLine("Hi, what is your name ? ");
         sName = Console.ReadLine();
 
 
-        Console.WriteLine("Bonjour " + sName + " à MonOutil. ");
+        Console.WriteLine("Welcome  " + sName + " to my tool. ");
 
 
-
+        
 
         Console.ReadKey();
 
