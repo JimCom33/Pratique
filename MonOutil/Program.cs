@@ -1,7 +1,31 @@
-﻿internal class Program
+﻿using MonOutil;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+
+        string sName;
+
+        Console.WriteLine("Bonjour, quel est votre nom");
+        sName = Console.ReadLine();
+
+
+        Console.WriteLine("Bonjour " + sName + " à MonOutil. ");
+
+
+
+
+        Console.ReadKey();
+
+
+
+
+
+
+
+
+
+        new Meteo();
     }
 }
